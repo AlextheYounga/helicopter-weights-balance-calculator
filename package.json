@@ -1,0 +1,15 @@
+{
+  "name": "helicopter_weight_balance_calculator",
+  "version": "1.0.0",
+  "description": "A helicopter weight and balance calculator written in Javascript",
+  "main": "calculate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "geometric": "^2.5.0",
+    "lodash": "^4.17.21"
+  }
+}
