@@ -61,23 +61,23 @@ function calculateGrossValues(vessel_parameters, weight, moment) {
                 ])),
             },
             long: {
-                zero_fuel: (
+                zero_fuel: _.sum(_.flatten([
                     vessel_parameters.moment.long.basic,
                     momentLongSeatsTotalWeight,
                     momentTotalLongBaggageWeight
-                ),
-                engine_start: (
+                ])),
+                engine_start: _.sum(_.flatten([
                     vessel_parameters.moment.long.basic,
                     momentLongSeatsTotalWeight,
                     momentTotalLongBaggageWeight,
                     moment.fuel.long.engine_start
-                ),
-                landing: (
+                ])),
+                landing: _.sum(_.flatten([
                     vessel_parameters.moment.long.basic,
                     momentLongSeatsTotalWeight,
                     momentTotalLongBaggageWeight,
                     moment.fuel.long.landing
-                ),
+                ])),
             },
         },
         arm: {
