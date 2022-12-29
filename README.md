@@ -1,4 +1,4 @@
-# Helicopter Weights and Balances Calcalator
+# Helicopter Weights and Balances Calculator
 
 Calculating the weights and balances for a EC130T2 helicopter in Javascript.
 
